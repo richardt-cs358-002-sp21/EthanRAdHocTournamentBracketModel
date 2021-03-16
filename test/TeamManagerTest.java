@@ -1,5 +1,11 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import cs358.tournament.model.Participant;
+import cs358.tournament.model.TeamManager;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -25,8 +31,12 @@ class TeamManagerTest {
   }
 
   @Test
-  void test() {
-    fail("Not yet implemented");
+  void TeamManagerTest() {
+    TeamManager teamManager = new TeamManager();
+    teamManager.setSizes(2, 2, 2);
+    Assertions.assertEquals(2, teamManager.getIdealTeamSize());
+    Assertions.assertEquals(2, teamManager.getMinTeamSize());
+    Assertions.assertEquals(2, teamManager.getMaxTeamSize());
   }
 
 }
