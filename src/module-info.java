@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ReedEthan
+ *
+ */
+module ethanRAdHocTournamentBracketModel {
+}
