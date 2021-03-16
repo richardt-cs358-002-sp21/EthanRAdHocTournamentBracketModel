@@ -2,7 +2,7 @@ package cs358.tournament.model;
 /**
  * Participant - a tournament participant who will play on a team in a bracket
  * 
- * @author reede4125
+ * @author richardtj
  *
  */
 public class Participant {
